@@ -49,8 +49,8 @@ $ftp->set_passivemode(true);
 
 # Download a file from the server. $local_name is an optional name for the local file
 $ftp->download($remote_file, $local_name);
-$ftp->downlaod('question.pdf');
-$ftp->downlaod('answer.pdf', 'downloaded_answer.pdf');
+$ftp->download('question.pdf');
+$ftp->download('answer.pdf', 'downloaded_answer.pdf');
 
 # Upload a file to the server. $remote_name is an optional name for the remote file
 $ftp->upload($local_file, $remote_name);
