@@ -41,7 +41,9 @@ $ftp = $this->makeInstance('ftp', 'ftp.example.com', 'arthur', 'theansweris42', 
 
 # This uses implicit TLS on default port 990
 $ftp = $this->makeInstance('ftp', 'ftp.example.com', 'arthur', 'theansweris42', ['implicit_tls' => true]);
-
+```
+Use the object for data transfer
+```
 # Use passive mode for data transfer
 $ftp->set_passivemode(true);
 
